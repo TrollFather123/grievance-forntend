@@ -8,10 +8,7 @@ export default defineConfig({
       src: '/src'
     },
   },
-  server: {
-    port: 3000, // Ensures local testing before deployment
-  },
   build: {
-    outDir: 'dist', // Vercel expects this by default
+    outDir: 'dist',
   }
 })

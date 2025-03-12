@@ -1,4 +1,3 @@
-import React from "react";
 import "./CalculationSheet.css";
 
 const CalculationSheet = () => {
@@ -10,27 +9,27 @@ const CalculationSheet = () => {
         <div className="row">
           <div className="column">
             <label>Hos Period</label>
-            <input type="text" placeholder="DUR"  />
+            <input type="text" placeholder="DUR" />
           </div>
           <div className="column">
             <label>Service Type</label>
-            <input type="text" placeholder="Professional fees charges"  />
+            <input type="text" placeholder="Professional fees charges" />
           </div>
           <div className="column">
             <label>Amount</label>
-            <input type="text" placeholder="8000.00"  />
+            <input type="text" placeholder="8000.00" />
           </div>
         </div>
 
         <div className="row">
           <div className="column">
-            <input type="text" placeholder="DUR"  />
+            <input type="text" placeholder="DUR" />
           </div>
           <div className="column">
-            <input type="text" placeholder="Total"  />
+            <input type="text" placeholder="Total" />
           </div>
           <div className="column">
-            <input type="text" placeholder="8000.00"  />
+            <input type="text" placeholder="8000.00" />
           </div>
         </div>
       </div>
@@ -59,7 +58,22 @@ const CalculationSheet = () => {
             <label>{label}:</label>
             <input
               type="text"
-              placeholder={["8000.00", "8000.00", "0.00", "0.00", "0.00", "0.00", "0.00", "8000.00", "0.00", "279000", "8000.00", "8000.00"][index]}
+              placeholder={
+                [
+                  "8000.00",
+                  "8000.00",
+                  "0.00",
+                  "0.00",
+                  "0.00",
+                  "0.00",
+                  "0.00",
+                  "8000.00",
+                  "0.00",
+                  "279000",
+                  "8000.00",
+                  "8000.00",
+                ][index]
+              }
             />
           </div>
         ))}
