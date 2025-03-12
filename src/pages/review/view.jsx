@@ -3,7 +3,7 @@ import CorporateDetails from "src/components/CorporateDetails";
 import EnrollmentDetails from "src/components/EnrollmentDetails";
 import PolicyDetails from "src/components/PolicyDetails";
 import ViewGrievanceDetails from "src/components/ViewGrievanceDetails";
-import CalculationSheet from "./calculationSheet";
+import CalculationSheet from "../../pages/review/CalculationSheet";
 
 
 const GrievanceView = () => {
