@@ -350,7 +350,7 @@ const GrievanceReview = () => {
               className="action_icon"
               title="edit"
               onClick={() => {
-                navigate("/grievance/view/55");
+                navigate("/grievance/review/55");
               }}
             />
             {/* </Tooltip> */}
