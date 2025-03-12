@@ -8,11 +8,10 @@ export default defineConfig({
       src: '/src'
     },
   },
-  esbuild: {
-    logLevel: 'silent' // Suppresses build errors
+  server: {
+    port: 3000, 
   },
   build: {
-    minify: false, // Disable minification if needed
-    ignoreWarning: true, // Ignores warnings during build
+    outDir: 'dist',
   }
 })
