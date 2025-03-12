@@ -1,0 +1,8 @@
+
+  services:
+    app:
+      build: .
+      ports:
+        - "5173:5173"  # Adjust based on your app's needs
+      env_file:
+      - .env
